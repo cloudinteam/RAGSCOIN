@@ -633,7 +633,7 @@ Sticky Menu
 }
 
 .eight-banner-section .eight-banner-content .banner-content-box .ei-banner-btn {
-  padding: 45px 0px 25px 0px;
+  padding: 15px 0px 25px 0px;
 }
 
 .eight-banner-section .eight-banner-content .banner-content-box .ei-banner-btn a {
@@ -657,6 +657,7 @@ Sticky Menu
   padding: 5px;
 }
 
+
 .eight-banner-section .eight-banner-content .banner-content-box .ei-banner-btn a:nth-child(1) i {
   top: 5px;
   color: #000;
@@ -664,6 +665,7 @@ Sticky Menu
   position: relative;
   margin-right: 10px;
 }
+
 
 .eight-banner-section .eight-banner-content .banner-content-box .ei-banner-btn a:nth-child(1):hover {
   background-color: #009cff;
