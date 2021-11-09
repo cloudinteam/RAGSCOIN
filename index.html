@@ -1,314 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from html.themexriver.com/Saasio/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Aug 2021 03:00:17 GMT -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <meta charset="UTF-8">
-    <title>RAGS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="assets/logo-normal (1).png" type="image/x-icon">
-    <link rel="icon" href="assets/logo-normal (1).png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/newfont.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
-    <link rel="stylesheet" href="assets/css/swiper.css">
-    <link rel="stylesheet" href="assets/css/jquery.bxslider.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rags</title>
+    <link rel="shortcut icon" href="assets/img/logo-square.png">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mdb.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/export.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
     <style>
-        fa-facebook li {
-            color: blue;
-        }
-
-        ul.nav.nav-pills li {
-            padding: 15px;
-            background: aliceblue;
-        }
-
-        .nav-pills li.active {
-            color: white;
-            padding: 15px;
-            background: #ff5722 !important;
-        }
-
-        #exTab1 .tab-content {
-            color: white;
-
-            padding: 5px 15px;
-        }
-
-        #exTab2 h3 {
-            color: white;
-            background-color: #428bca;
-            padding: 5px 15px;
-        }
-
-        /* remove border radius for the tab */
-
-        #exTab1 .nav-pills>li>a {
-            border-radius: 0;
-        }
-
-        /* change border radius for the tab , apply corners on top*/
-
-        #exTab3 .nav-pills>li>a {
-            border-radius: 4px 4px 0 0;
-        }
-
-        #exTab3 .tab-content {
-            color: white;
-            background-color: #428bca;
-            padding: 5px 15px;
-        }
-
-        .tab-pane ul li {
-            padding-top: 12px;
-        }
-
-        .tab-pane ul li:before {
-            font-family: "Font Awesome 5 Free";
-            content: "\f00c";
-            padding-right: 3px;
-            vertical-align: middle;
-            color: #ff5722;
-            font-weight: 900;
-            margin-right: 7px;
-        }
-
-        .ei-newslatter-section .ei-newslatter-contnet {
-            max-width: 100%;
-        }
-
-        h3.ei-widget-title.ml-3 {
-            margin-top: 20px;
-            color: #ff9800;
-        }
-
-        ul.social-icon-list-bottom {
-            list-style: none;
-        }
-
-        ul.social-icon-list-bottom li {
-            font-size: 33px;
-            padding-left: 13px;
-
+        .btn-copy {
+            margin-bottom: 12px;
+            border: 1px solid #ffc107;
+            padding: 9px;
             cursor: pointer;
+            color: white;
         }
 
-        a.fab {
-            color: #ffffff;
+        .btn-copy:hover {
+            background-color: white;
+            color: black;
         }
 
-        a.fab.fa-facebook:hover {
-            color: blue;
-        }
-
-        a.fab.fa-twitter:hover {
-            color: #03a9f4;
-        }
-
-        a.fab.fa-telegram:hover {
-            color: rgb(70, 178, 250);
-        }
-
-        a.fab.fa-instagram:hover {
-            color: rgb(202, 40, 116);
-        }
-
-        a.fab.fa-reddit:hover {
-            color: rgb(245, 81, 4);
-        }
-
-        a.fab.fa-discord:hover {
-            color: rgb(229, 229, 252);
-        }
-
-        @media screen and (min-width: 320px) {
-
-
-            .social-icon-list-bottom {
-                display: flex;
-                justify-content: center;
-            }
-        }
-
-        @media screen and (min-width: 500px) {
-            .social-icon-list-bottom {
-                display: flex;
-                justify-content: left;
-            }
-        }
-
-        @media screen and (max-width: 480px) {
-            .crypto_address {
-
-                width: 150%;
-
-            }
-        }
-
-        .text-justify {
-            text-align: justify;
+        .slick-slider {
+            -moz-user-select: auto;
+            -ms-user-select: auto;
+            user-select: auto;
         }
 
 
-        .crypto_address {
+        .list-area ul li {
+            color: white;
+            margin: 11px 14px 5px 6px;
+        }
+
+        .clr-yellow {
+            color: #ffc107;
+            margin-right: 5px;
+        }
+
+        .tab-menu {
+            margin-top: 34px;
+        }
+
+        .tab-menu ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        .tab-menu ul li {
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        .tab-menu ul li a {
             color: #fff;
-            padding: 10px 15px;
-            border: 2px solid #fff;
-            border-radius: 18px;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            background-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 0.44px;
+            font-family: 'Oswald';
+            font-weight: bold;
+            display: inline-block;
+            display: block;
+            text-decoration: none;
+            transition: 0.5s all;
+            background: #ffc107;
+            border: 2px solid #ffc107;
+            border-bottom: 0;
+        }
+
+        .tab-menu ul li a:hover {
+            background: #ffc107;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .tab-menu ul li a.active {
+            background: #ffffff2e;
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #ffc107;
+        }
+
+        .tab-box {
+            display: none;
+        }
+
+        .tab-teaser {
+            max-width: 800px;
             width: 100%;
-            font-weight: 300;
+            margin: 0 auto;
+            font-family: 'Oswald';
+        }
+
+        .tab-main-box {
+            background: #ffffff2e;
+            color: #fff;
+            padding: 10px 30px;
+            border: 2px solid #ffc107;
+            margin-top: -2px
+        }
+
+        @media screen and (min-width:320px) {
+            .tab-menu ul li a {
+                padding: 2px 1px;
+                font-size: 12px;
+                border: 1px solid black;
+            }
+        }
+
+        @media screen and (min-width: 375px) {
+            .tab-menu ul li a {
+                padding: 2px 1px;
+                font-size: 15px;
+                border: 1px solid black;
+            }
+        }
+
+        @media screen and (min-width: 440px) {
+            .tab-menu ul li a {
+                padding: 10px 3px;
+                font-size: 15px;
+                border: 1px solid black;
+            }
+        }
+
+        @media screen and (min-width: 513px) {
+            .tab-menu ul li a {
+                padding: 12px 4px;
+                font-size: 15px;
+                border: 1px solid black;
+            }
         }
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204918075-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-204918075-1');
-    </script>
-
-    <!-- Start Alexa Certify Javascript -->
-    <script type="text/javascript">
-        _atrk_opts = { atrk_acct: "jXk6x1CFP120KY", domain: "ragscoin.io", dynamic: true };
-        (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
-    </script>
-    <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=jXk6x1CFP120KY" style="display:none"
-            height="1" width="1" alt="" /></noscript>
-    <!-- End Alexa Certify Javascript -->
-
 </head>
 
-<body class="app-eight-home" data-spy="scroll" data-target=".navigation-eight" data-offset="80">
-    <!-- preloader - start -->
-    <div id="preloader" class="ei-preloader"></div>
-    <div class="ei-up">
-        <a href="#" id="scrollup" class="ei-scrollup text-center"><i class="fas fa-angle-up"></i></a>
+<body id="thetop" class="thetop">
+
+    <div class='backtotop'>
+        <a href="#" class='scroll'>
+            <i class="ion-arrow-up-c"></i>
+        </a>
     </div>
-    <!-- Start of header section
-        ============================================= -->
-    <header id="header-eight" class="main-header-eight">
-        <div class="appheader-content">
-            <div class="site-logo float-left">
-                <a href="#"><img src="assets/Logo.png" style="    width: 120px;" alt=""></a>
-            </div>
-            <nav class="navigation-eight ul-li saasio_one_click">
-                <ul>
-                    <li><a class="nav-link" href="#eight-banner">Home</a></li>
-                    <li><a class="nav-link" href="#feature-eight">Rewards</a></li>
-                    <li><a class="nav-link" href="#ei-testimonial">Documents</a></li>
-                    <li><a class="nav-link" href="#ei-appdownload">Donation</a></li>
-                    <li><a class="nav-link" href="#ei-partner">Partner</a></li>
-                    <li><a class="nav-link" href="#ei-faq">How to Buy</a></li>
-                </ul>
-            </nav>
-            <!-- <div class="h-eight-social ul-li float-right clearfix">
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                </ul>
-            </div> -->
-            <div class="sign-up-btn-eight text-center float-right clearfix">
-                <a href="https://www.userragscoin.com/login" target="_blank">Sign In</a>
-            </div>
-        </div>
-        <!-- /desktop-menu -->
-        <div class="appi-ei-mobile_menu relative-position">
-            <div class="appi-ei-mobile_menu_button appi-ei-open_mobile_menu">
-                <i class="fas fa-bars"></i>
-            </div>
-            <div class="appi-ei-mobile_menu_wrap">
-                <div class="mobile_menu_overlay appi-ei-open_mobile_menu"></div>
-                <div class="appi-ei-mobile_menu_content">
-                    <div class="appi-ei-mobile_menu_close appi-ei-open_mobile_menu">
-                        <i class="far fa-times-circle"></i>
+
+    <div id="preloader"></div>
+
+    <header id="header-section" class="header-section cd-auto-hide-header clearfix">
+
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="site-intro">
+                            <p>Welcome to Rags</p>
+                        </div>
                     </div>
-                    <div class="m-brand-logo text-center">
-                        <img src="assets/logo-normal (1).png" alt="">
-                    </div>
-                    <nav class="appi-ei-mobile-main-navigation saasio_one_click  clearfix ul-li">
-                        <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
-                            <li><a class="nav-link" href="#eight-banner">Home</a></li>
-                            <li><a class="nav-link" href="#feature-eight">Rewards</a></li>
-                            <li><a class="nav-link" href="#ei-testimonial">Documents</a></li>
-                            <li><a class="nav-link" href="#ei-appdownload">Donation</a></li>
-                            <li><a class="nav-link" href="#ei-partner">Partner</a></li>
-
-                            <li><a class="nav-link" href="#ei-faq">How to Buy</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- /mobile-menu -->
-    </header>
-    <!-- End of header section
-        ============================================= -->
-
-
-    <!-- Start of Banner section
-        ============================================= -->
-    <section id="eight-banner" class="eight-banner-section position-relative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="eight-banner-content">
-                        <div class="banner-content-box appeight-headline pera-content">
-                            <!-- <h1 class="cd-headline clip is-full-width">
-                                The Birth of Baby Doge!
-                                <span class="cd-words-wrapper">
-                                    <b class="is-visible">Doge!</b>
-                                    <b>Doge!</b>
-                                    <b>Doge!</b>
-                                </span>
-                            </h1> -->
-                            <h2 class="text-white wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                First Binance Smart chain asset Management using Hybrid intelligence
-                            </h2><br>
-                            <P class="wow fadeInLeft text-justify" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <span class="fa fa-arrow-right"></span>&nbsp;&nbsp;Rags creates the social and
-                                technological infrastructure needed to make effective Utility usages and decisions under
-                                the volatile conditions of the new economy.
-                                By combining a large number of diverse financial analysts and a set of machine- learning
-                                models into a single system, we are developing a Hybrid Intelligence infrastructure for
-                                the efficient management of investors' capital in traditional financial and
-                                crypto-markets. <br>
-                                <span class="fa fa-arrow-right"></span>&nbsp;&nbsp; The benefits of Hybrid Intelligence for an ecosystem and community are a technological and analytical
-                                infrastructure for the efficient and safe management of investors' capital by investors
-                                themselves or licensed managers.<br>
-
-                                <span class="fa fa-arrow-right"></span>&nbsp;&nbsp;An opportunity for analysts to
-                                monetise their intellectual assets without risking their own funds.
-
-                                tools and data for making investment decisions under the conditions of market
-                                uncertainty.<br>
-
-                                <span class="fa fa-arrow-right"></span>&nbsp;&nbsp;Up-to-date analytics of the industry,
-                                expectations, opportunities, and mar- ket growth points.
-
-                                indices and ratings of crypto-assets. <br /><br />
-                            <div class="ei-banner-review pera-content ul-li">
-                                <div class="col-12 row">
-                                    <ul class="social-icon-list-bottom mt-3 mb-3">
+                    <div class="col-lg-7">
+                        <div class="criptofy-user-area">
+                            <ul class="text-right">
+                                <li class="language-select">
+                                    <ul>
                                         <li>
                                             <a target="_blank" href="https://www.facebook.com/ragsico/"
                                                 class="fab fa-facebook">
@@ -341,546 +225,720 @@
                                         </li>
 
                                     </ul>
-                                </div>
+                                </li>
+                                <li>
+                                    <a href="https://www.userragscoin.com/login">
+                                        <i class="ion-ios-person-outline"></i>
+                                        Login
+                                    </a>
+                                </li>
 
-                                <div class="row col-12 mt-2">
-                                    <h6 class="text-white">RAGSCOIN SMART CONTRACT ADDRESS</h6>
-                                    <div class="ei-banner-btn" style="overflow: auto;">
-                                       <h6> <span class="crypto_address">0xa923180Ef71e81F21b36941Fb62D954AF21C60A3</span> </h6>
-                                    </div>
-
-                                </div>
-                                <div class="row col-12 mt-2">
-                                    <div class="ei-banner-btn">
-                                        <a style="width: 173px; line-height: 39px;" target="_blank"
-                                            href="https://pancakeswap.finance/swap#/swap?outputCurrency=0xa923180Ef71e81F21b36941Fb62D954AF21C60A3">Buy
-                                            Rags Coin</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </p>
-                        <div class="ei-banner-btn">
-
+                            </ul>
                         </div>
                     </div>
-                    <div class="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <img src="assets/logo-normal (1).png" alt="" style="width: 50%;float: right;">
-                    </div>
+
                 </div>
             </div>
         </div>
-        </div>
-        <div class="waveWrapper waveAnimation">
-            <div class="waveWrapperInner bgTop">
-                <div class="wave waveTop" style="background-image: url('assets/img/app-landing/shape/b-shapeup.png')">
-                </div>
-            </div>
-            <div class="waveWrapperInner bgMiddle">
-                <div class="wave waveMiddle"
-                    style="background-image: url('assets/img/app-landing/shape/b-shapemiddle.png')"></div>
-            </div>
-            <div class="waveWrapperInner bgBottom">
-                <div class="wave waveBottom"
-                    style="background-image: url('assets/img/app-landing/shape/b-shapemiddle.png')"></div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Banner section
-        ============================================= -->
-
-    <!-- Start of Featured  section
-        ============================================= -->
-    <section id="feature-eight" class="feature-eight-section position-relative">
-        <div class="container">
-            <div class="eight-section-title appeight-headline pera-content text-center">
-                <span class="eg-title-tag">
-                    Rags<i class="square-shape"><i></i><i></i> <i></i> <i></i> </i>
-                </span>
-                <h2>Rewards in your
-                    <span>wallet</span>
-                </h2>
-                <p>Rags is a hybrid intelligence based strategical asset management system .All holders of rags will
-                    earn more rags</p>
-            </div>
-            <!-- /title -->
-
-            <div class="eight-feature-content">
-                <div class="row justify-content-md-center">
-
-                    <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div class="eight-feature-box text-center position-relative">
-                            <div class="feature-icon8 position-relative">
-                                <i class="flaticon-computer"></i>
-                                <span class="ei-icon-bg"></span>
-                            </div>
-                            <div class="feature-text8 appeight-headline pera-content">
-                                <h3>Rewards Holding</h3>
-                                <p>
-                                    5% of each transaction is redistributed to token holders. That means you can earn
-                                    more Rags Coins by just holding them in your wallet. (centralized
-                                    exchanges/wallets may not apply tokenomics/redistribution)</p>
-                            </div>
-                            <div class="ei-feature-more">
-                                <a href="#"><i class="fas fa-check"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="900ms" data-wow-duration="1500ms">
-                        <div class="eight-feature-box text-center position-relative">
-                            <div class="feature-icon8 position-relative">
-                                <i class="flaticon-pen-tool"></i>
-                                <span class="ei-icon-bg"></span>
-                            </div>
-                            <div class="feature-text8 appeight-headline pera-content">
-                                <h3>Locked Liquidty</h3>
-                                <p>
-                                    Majority of LP tokens locked & some burned.</p>
-                            </div>
-                            <div class="ei-feature-more">
-                                <a href="#"><i class="fas fa-check"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="1200ms" data-wow-duration="1500ms">
-                        <div class="eight-feature-box text-center position-relative">
-                            <div class="feature-icon8 position-relative">
-                                <i class="flaticon-layers"></i>
-                                <span class="ei-icon-bg"></span>
-                            </div>
-                            <div class="feature-text8 appeight-headline pera-content">
-                                <h3>Charity Wallet</h3>
-                                <p>
-
-                                    We have a designated charity wallet that receives redistributions that are used to
-                                    support our charity partners.
-                                </p>
-                            </div>
-                            <div class="ei-feature-more">
-                                <a href="#"><i class="fas fa-check"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ei-feature-shape"><img src="assets/img/app-landing/background/bg-left.jpg" alt=""></div>
-    </section>
-    <!-- End of Featured section
-        ============================================= -->
-
-    <!-- Start of Testimonial section
-    ============================================= -->
-    <section id="ei-testimonial" class="ei-testimonial-section position-relative"
-        data-background="assets/img/app-landing/background/tbg.jpg">
-        <div class="container">
-            <div class="eight-section-title appeight-headline pera-content text-center">
-                <span class="eg-title-tag">
-                    Documents<i class="square-shape"> <i></i><i></i><i></i><i></i> </i>
-                </span>
-                <h2>Our Documents
-                </h2>
-                <p>You can find links to our official white paper and independent below!</p>
-            </div>
-            <!-- /title -->
-            <div class="row col-12">
-                <div class="col-md-12 col-lg-6 col-sm-12 mb-4 text-center">
-                    <img src="assets/logo-normal (1).png" alt="" style="width: 50%;">
-                </div>
-                <div class="col-md-12 col-lg-6 col-sm-12">
-                    <div class="ei-testimonial-img-text position-relative wow fadeFromUp" data-wow-delay="600ms"
-                        data-wow-duration="1500ms">
-                        <div class="test--quote-icon">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="ei-testimonial-img float-left text-center">
-                            <img src="assets/img/app-landing/shape/fq-shape2.png" alt="">
-                        </div>
-                        <div class="ei-testimonial-text">
-                            <div class="ei-testimonial-name appeight-headline pera-content">
-                                <h3>WhitePaper</h3>
-                            </div>
-                            <a target="_blank" href="./assets/doc/RAGS_WHITEPAPER_OFFICIAL.pdf" download>View Now</a>
-                        </div>
-                    </div>
-                    <div class="row col-12">
-                        <p>Rags Partnered with corporates in future to allow merchants to pay rags across the world on
-                            several platforms like hotels, Edu tech and Ecommerce platforms and release open API</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="testimonial-floatingimg testimonial-float-img1 ul-li-block">
-            <ul>
-                <li><img src="assets/img/app-landing/testimonial/tf1.jpg" alt=""></li>
-                <li><img src="assets/img/app-landing/testimonial/tf3.jpg" alt=""></li>
-                <li><img src="assets/img/app-landing/testimonial/tst1.jpg" alt=""></li>
-                <li><img src="assets/img/app-landing/testimonial/tst2.jpg" alt=""></li>
-            </ul>
-        </div>
-        <div class="testimonial-floatingimg testimonial-float-img2 ul-li-block">
-            <ul>
-                <li><img src="assets/img/app-landing/testimonial/tf1.jpg" alt=""></li>
-                <li><img src="assets/img/app-landing/testimonial/tf3.jpg" alt=""></li>
-                <li><img src="assets/img/app-landing/testimonial/tst1.jpg" alt=""></li>
-                <li><img src="assets/img/app-landing/testimonial/tst2.jpg" alt=""></li>
-            </ul>
-        </div> -->
-    </section>
-    <!-- End of Testimonial section-->
 
 
-    <!-- Start of App Download  section
-        ============================================= -->
-    <section id="ei-appdownload" class="ei-appdownload-section position-relative"
-        data-background="assets/img/app-landing/background/appbg1.png">
-        <div class="container">
-            <div class="ei-appdownload-content">
-                <div class="row">
-
-                    <div class="col-lg-6">
-                        <div class="ei-app-down-text wow fadeFromLeft" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <div class="eight-section-title appeight-headline pera-content text-left">
-                                <span class="eg-title-tag">
-                                    Rags<i class="square-shape"><i></i><i></i><i></i><i></i></i>
-                                </span>
-                                <h2>Rags will avail with Coinpayments
-                                    <span>shortly.</span>
-                                </h2>
-                                <p>Rags partnership coinpayments allows merchants across the world on several top
-                                    ecommerce platforms the ability to accept Rags coin as payment if they choose
-                                    to integrate!.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <img src="assets/img/app-landing/mockup/bm1.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ei-appdownloaad-shape app-shape1" data-parallax='{"y" : -100}'><img
-                src="assets/img/app-landing/background/apps1.png" alt=""></div>
-        <div class="ei-appdownloaad-shape app-shape2" data-parallax='{"x" : -120}'><img
-                src="assets/img/app-landing/background/apps2.png" alt=""></div>
-        <div class="ei-appdownloaad-shape app-shape3" data-parallax='{"y" : -100}'><img
-                src="assets/img/app-landing/background/apps3.png" alt=""></div>
-    </section>
-
-
-    <!-- End of App Download section
-    ============================================= -->
-
-    <!-- Start of Partner  section
-        ============================================= -->
-    <!-- <section id="ei-partner" class="ei-partner-section">
-        <div class="container">
-            <div class="ei-partner-content">
-                <div class="eight-section-title appeight-headline pera-content text-left">
-                    <span class="eg-title-tag">
-                        Partners<i class="square-shape"><i></i><i></i><i></i><i></i></i>
-                    </span>
-                    <h2>Charity Partners!
-                    </h2>
-                </div>
-                <div id="ei-partner-slide" class="partner-slide-area owl-carousel">
-                    <div class="partner-img">
-                        <img src="assets/img/app-landing/partner/p1.png" alt="">
-                    </div>
-                    <div class="partner-img">
-                        <img src="assets/img/app-landing/partner/p2.png" alt="">
-                    </div>
-                    <div class="partner-img">
-                        <img src="assets/img/app-landing/partner/p3.png" alt="">
-                    </div>
-                    <div class="partner-img">
-                        <img src="assets/img/app-landing/partner/p4.png" alt="">
-                    </div>
-
-                    <div class="partner-img">
-                        <img src="assets/img/app-landing/partner/p2.png" alt="">
-                    </div>
-                    <div class="partner-img">
-                        <img src="assets/img/app-landing/partner/p3.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End  of Partner  section
-
-        
-
-            <!-- Start of App Download  section
-        ============================================= -->
-    <section id="ei-appdownload" class="ei-appdownload-section position-relative"
-        data-background="assets/img/app-landing/background/appbg1.png">
-        <div class="container">
-            <div class="ei-appdownload-content">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <img src="assets/donation.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="ei-app-down-text wow fadeFromLeft" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <div class="eight-section-title appeight-headline pera-content text-left">
-                                <span class="eg-title-tag">
-                                    Donations<i class="square-shape"><i></i><i></i><i></i><i></i></i>
-                                </span>
-                                <h2>Charity
-                                    <span>Donations.</span>
-                                </h2>
-                                <p>Rags charity helps the Techie to understand more Hybrid Intelligence on crypto</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ei-appdownloaad-shape app-shape1" data-parallax='{"y" : -100}'><img
-                src="assets/img/app-landing/background/apps1.png" alt=""></div>
-        <div class="ei-appdownloaad-shape app-shape2" data-parallax='{"x" : -120}'><img
-                src="assets/img/app-landing/background/apps2.png" alt=""></div>
-        <div class="ei-appdownloaad-shape app-shape3" data-parallax='{"y" : -100}'><img
-                src="assets/img/app-landing/background/apps3.png" alt=""></div>
-    </section>
-    <!-- End of App Download section
-
-
-
-    <!-- Start of Newslatter  section
-        ============================================= -->
-    <section id="ei-newslatter" class="ei-newslatter-section position-relative">
-        <div class="ei-newslatter-box position-relative">
+        <div class="header-middle" style="background-color: #444138;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="ei-newslatter-contnet appeight-headline pera-content">
-                            <div id="exTab1" class="container">
-                                <ul class="nav nav-pills">
-                                    <li class="active">
-                                        <a href="#1a" data-toggle="tab">Phase 1</a>
-                                    </li>
-                                    <li><a href="#2a" data-toggle="tab">Phase 2</a>
-                                    </li>
-                                    <li><a href="#3a" data-toggle="tab">Phase 3</a>
-                                    </li>
-                                    <li><a href="#4a" data-toggle="tab">Phase 4</a>
-                                    </li>
-                                    <li><a href="#5a" data-toggle="tab">Phase 5</a>
-                                    </li>
-                                    <li><a href="#6a" data-toggle="tab">Phase 6</a>
-                                    </li>
-                                </ul>
 
-                                <div class="tab-content clearfix">
-                                    <div class="tab-pane active" id="1a">
-                                        <h3 class="ei-widget-title ml-3">Phase 1</h3>
-                                        <ul style="list-style: none;">
-                                            <li>Marketing push to spread awareness</li>
-                                            <li>Website launch</li>
-                                            <li>5000 telegram members</li>
-                                            <li>Meme development</li>
-                                            <li>100 Rags Holders in ICO</li>
-                                        </ul>
+                    <div class="col-12 text-center">
+                        <div class="brand-logo-area">
+                            <a href="index-1.html" class="brand-logo wow bounceInUp" data-wow-duration="2s"
+                            data-wow-delay="1s"">
+                                <img style="width: 200px;" src="assets/img/logo-rect.png" alt="brand logo not fond">
+                            </a>
+                        </div>
+                    </div>
 
+                    <!-- <div class="col-lg-9">
+
+                        <div class="contact-info">
+                            <ul>
+                                <li>
+                                    <span class="icon"><i class="ion-ios-location"></i></span>
+                                    <div class="content">
+                                        <h3 class="title-xsmall">3256 Mouse Roda</h3>
+                                        <h4>New York, USA</h4>
                                     </div>
-                                    <div class="tab-pane" id="2a">
-                                        <h3 class="ei-widget-title ml-3">Phase 2</h3>
-                                        <ul style="list-style: none;">
-                                            <li>Influencer marketing push</li>
-                                            <li>Listing on coin gecko</li>
-                                            <li>Listing on coin market cap</li>
-                                            <li>25,000 telegram members</li>
-                                            <li>25,000 holders</li>
-                                            <li>Third party audit</li>
-                                            <li>Voluntary donation for community + charity partnership</li>
-                                        </ul>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="ion-android-call"></i></span>
+                                    <div class="content">
+                                        <h3 class="title-xsmall">Call us</h3>
+                                        <h4>+880 123 456 789</h4>
                                     </div>
-                                    <div class="tab-pane" id="3a">
-                                        <h3 class="ei-widget-title ml-3">Phase 3</h3>
-                                        <ul style="list-style: none;">
-                                            <li>100,000 holders</li>
-                                            <li>100,000 telegram members</li>
-                                            <li>Large influencer marketing push</li>
-                                            <li>More memes from community</li>
-                                            <li>Rags release the utility for hotels</li>
-                                        </ul>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="ion-clock"></i></span>
+                                    <div class="content">
+                                        <h3 class="title-xsmall">Office Time</h3>
+                                        <h4>Mon - Fri :- 9:00 - 19:00</h4>
                                     </div>
-                                    <div class="tab-pane" id="4a">
-                                        <h3 class="ei-widget-title ml-3">Phase 4</h3>
-                                        <ul style="list-style: none;">
-                                            <li>150,000 holders</li>
-                                            <li>increase marketing</li>
-                                            <li>Rags Swap</li>
-                                            <li>Add way more memes</li>
-                                            <li>Website Redesign</li>
-                                            <li>Rags Paw (Paw wallet growth tracker )</li>
-                                        </ul>
-                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header-bottom">
+            <div class="container">
+
+                <div class="mainmenu clearfix">
+                    <ul class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
+                        <li class="active"><a href="#slider-section">home</a></li>
+                        <li><a href="#service-section">Rewards</a></li>
+                        <li><a href="#about-section">Documents</a></li>
+                        <li><a href="#donation">Donation</a></li>
+                        <li><a href="#chart-section">Roadmap</a></li>
+                        <li><a href="#criptocurrency-price-section">How to Buy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="cart-area">
+        <div id="cart-wrapper" class="cart-wrapper">
+
+            <div id="cart-dismiss" class="dismiss">
+                <i class="ion-android-close"></i>
+            </div>
+
+            <div id="cart-sidebar" class="cart-sidebar">
+
+                <div class="cart-item mb-30 clearfix">
+                    <div class="cart-img float-left">
+                        <img class="block" src="assets/images/shop/img1.png" alt="Image">
+                    </div>
+                    <div class="cart-content">
+                        <h2 class="title-xsmall">Lorem ipsum dolor.</h2>
+                        <p class="mb-15">
+                            Lorem Ipsum is simply dummy text...
+                        </p>
+                        <div>
+                            <a href="#!" class="remove-btn float-right">Remove</a>
+                            <span class="amount float-left">$69.00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cart-item mb-30 clearfix">
+                    <div class="cart-img float-left">
+                        <img class="block" src="assets/images/shop/img1.png" alt="Image">
+                    </div>
+                    <div class="cart-content">
+                        <h2 class="title-xsmall">Lorem ipsum dolor.</h2>
+                        <p class="mb-15">
+                            Lorem Ipsum is simply dummy text...
+                        </p>
+                        <div>
+                            <a href="#!" class="remove-btn float-right">Remove</a>
+                            <span class="amount float-left">$39.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="total-amount mb-30 clearfix">
+                    <h6 class="float-left">
+                        total:-
+                    </h6>
+                    <h6 class="float-right">
+                        $108.00
+                    </h6>
+                </div>
+
+                <div class="text-center">
+                    <a href="checkout.html" class="custom-btn waves-effect">
+                        Check Out Now
+                        <span><i class="ion-arrow-right-c"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="cart-overlay"></div>
+    </div>
+
+    <div class="altranative-header">
+        <div id="menu-container">
+            <div class="menu-wrapper">
+                <div class="row">
+                    <button type="button" class="alt-menu-btn float-left">
+                        <span class="hamburger-menu"></span>
+                    </button>
+                    <div class="logo-area">
+                        <a href="index-1.html">
+                            <img src="assets/img/logo-rect.png" alt="Logo_not_found">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <ul id="top-menu" class="menu-list accordion">
+
+                <li class="card active"><a href="#slider-section">home</a></li>
+                <li class="card"><a href="#service-section">Rewards</a></li>
+                <li class="card"><a href="#about-section">Documents</a></li>
+                <li class="card"><a href="#donation">Donation</a></li>
+                <li class="card"><a href="#chart-section">Roadmap</a></li>
+                <li class="card"><a href="#criptocurrency-price-section">How to Buy</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <section id="slider-section" class="slider-section clearfix">
+
+
+        <div class="slick-item" style="background-image: url(assets/images/slider/slider-bg3.jpg);">
+            <div class="overlay-black">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="slider-contant text-center">
+                                <h1 class="mb-30 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                                    First Binance Smart chain asset
+                                    <strong><span class="clr-yellow"> Management using Hybrid
+                                            intelligence</span></strong>
+                                </h1>
+
+                                <p class="slider-desc clr-white mb-30 wow bounceInUp" data-wow-duration="2s"
+                                    data-wow-delay="1s">
+                                    Rags creates the social and technological infrastructure needed to make effective
+                                    Utility usages and decisions under the volatile conditions of the new economy. By
+                                    combining a large number of diverse financial analysts and a set of machine-
+                                    learning models into a single system, we are developing a Hybrid Intelligence
+                                    infrastructure for the efficient management of investors' capital in traditional
+                                    financial and crypto-markets.
 
 
 
-                                    <div class="tab-pane" id="5a">
-                                        <h3 class="ei-widget-title ml-3">Phase 5</h3>
-                                        <ul style="list-style: none;">
-                                            <li>Release the hybrid intelligence tool for social strategies companies
-                                            </li>
-                                            <li>Implement Rags Edutech platform</li>
+                                </p>
+                                <p class="slider-desc clr-white mb-30 wow bounceInUp" data-wow-duration="0s"
+                                    data-wow-delay="1.5s">The benefits of Hybrid Intelligence for an
+                                    ecosystem and community are a
+                                    technological and the analytical infrastructure for the efficient and safe
+                                    management of
+                                    investors' capital by investors themselves or licensed managers.</p>
+                                <p class="slider-desc clr-white mb-30 wow bounceInUp" data-wow-duration="0s"
+                                    data-wow-delay="2s">
+                                    An opportunity for analysts to monetise their intellectual assets without risking
+                                    their own funds. tools and data for making investment decisions under the conditions
+                                    of market uncertainty.
+                                </p>
+                                <p class="slider-desc clr-white mb-30 wow bounceInUp" data-wow-duration="0s"
+                                    data-wow-delay="1s">Up-to-date analytics of the industry,
+                                    expectations, opportunities, and mar- ket
+                                    growth points. indices and ratings of crypto-assets.</p>
 
-                                        </ul>
+                                <div class="col-12">
+                                    <input type="text" style="display: none;"
+                                        value="0xa923180Ef71e81F21b36941Fb62D954AF21C60A3" id="myInput">
+                                    <h4 class="mb-3 clr-white">RAGSCOIN SMART CONTRACT ADDRESS</h4>
+                                    <div style="overflow: auto;">
+                                        <span
+                                            class="slider-desc clr-white">0xa923180Ef71e81F21b36941Fb62D954AF21C60A3</span>
                                     </div>
-                                    <div class="tab-pane" id="6a">
-                                        <h3 class="ei-widget-title ml-3">Phase 6</h3>
-                                        <ul style="list-style: none;">
-                                            <li>Donate to the startup Tech companies and tie up with the big corporate
-                                                companies with 100 billion community with world</li>
-                                        </ul>
+                                    <button class="btn-copy" onClick="copyTextfun()">Copy
+                                        Address</button>
+                                </div>
+                                <a href="https://www.userragscoin.com/login" class="custom-btn waves-effect">
+                                    Buy Rags Coin
+                                    <span><i class="ion-arrow-right-c"></i></span>
+                                </a>
+                                <div class="col-12 row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <h4 class="mb-3 clr-white">PRICE</h4>
+                                        <div style="overflow: auto;">
+                                            <span id="price" class="slider-desc clr-white"></span>
+                                        </div>
                                     </div>
-
+                                    <div class="col-md-6 col-sm-12">
+                                        <h4 class="mb-3 clr-white">BNB PRICE</h4>
+                                        <div style="overflow: auto;">
+                                            <span id="bnbprice" class="slider-desc clr-white"></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="service-section" class="service-section sec-ptb-100 bg-offwhite clearfix">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <h3>Rags</h3>
+                        <h2>Rewards in your wallet</h2>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-duration="0s" data-wow-delay="1s">
+                    <div class="service mb-30 text-center">
+                        <div class="icon">
+                            <i class="ion-lock-combination"></i>
+                        </div>
+                        <a href="#!">Rewards Holding</a>
+                        <p>
+                            2% of each transaction is redistributed to token holders. That means you can earn more Rags
+                            Coins by just holding them in your wallet. (centralized exchanges/wallets may not apply
+                            tokenomics/redistribution)
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
+                    <div class="service mb-30 text-center">
+                        <div class="icon">
+                            <i class="ion-medkit"></i>
+                        </div>
+                        <a href="#!">Locked Liquidty</a>
+                        <p>
+                            Majority of LP tokens locked & some burned.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">
+                    <div class="service mb-30 text-center">
+                        <div class="icon">
+                            <i class="ion-ipod"></i>
+                        </div>
+                        <a href="#!">Charity Wallet</a>
+                        <p>
+                            We have a designated charity wallet that receives redistributions that are used to support
+                            our charity partners.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about-section" class="about-section sec-ptb-100 clearfix">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <h3>Rags</h3>
+                        <h2>Join our documents</h2>
+                    </div>
+                    <p>You can find links to our official white paper and independent below!</p>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <div class="chart-img">
+                        <img src="assets/img/logo-square.png" style="width: 72%;" alt="chart_image_not_found">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 wow bounceInUp" data-wow-duration="2s" data-wow-delay="2s">
+                    <div class="content">
+                        <h2 class="title-xlarge mb-30">RAGS For Corporates</h2>
+
+                        <p class="mb-30">
+                            Rags Partnered with corporates in future to allow merchants to pay rags across the world on
+                            several platforms like hotels, Edu tech and Ecommerce platforms and release open API
+                        </p>
+                        <div class="text-left">
+                            <a href="assets/doc/RAGS_WHITEPAPER_OFFICIAL.pdf" target="_blank" download
+                                class="custom-btn waves-effect" tabindex="-1">
+                                View WhitePaper
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="ei-news-vector1 position-absolute"><img style="width: 25%;"
-                    src="assets/img/app-landing/background/round1.png" alt="">
-            </div>
-            <!-- <div class="ei-news-vector2 position-absolute"><img src="assets/img/app-landing/shape/n-shape2.png" alt="">
-                </div> -->
-            <div class="ei-news-vector3 position-absolute" data-parallax='{"x" : 50}'><img
-                    src="assets/img/app-landing/shape/n-shape3.png" alt=""></div>
         </div>
-
     </section>
-    <!-- End of Newslatter  section
-            ============================================= -->
 
-    <!-- Start of Featured  section
-        ============================================= -->
-    <!-- <section id="feature-eight" class="feature-eight-section position-relative">
-        <div class="container">
-            <div class="eight-section-title appeight-headline pera-content text-center">
-
-                <h2>Join Our Community
-                </h2>
-                <p>100,000+ Twitter Followers</p>
-                <p>100,000+ Telegram Members</p>
-                <p>Extremely active community that loves our mission. Our telegram channel is filled with community
-                    members 24/7 that would love to help you. Do not trust random messages of people claiming to be
-                    “support” or ever give out your wallet info to anyone.</p>
-            </div>
-
-        </div>
-        <div class="ei-feature-shape"><img src="assets/img/app-landing/shape/f-shape1.png" alt=""></div>
-    </section> -->
-    <!-- End of Featured section
-        ============================================= -->
-
-
-    <!-- Start of Faq section
-        ============================================= -->
-    <section id="ei-faq" class="ei-faq-section position-relative">
+    <section id="about-section" class="about-section sec-ptb-100 clearfix"
+        style="    background: rgb(243 243 243 / 90%);">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="ei-faq-content">
-                        <div class="ei-title-faq pera-content wow fadeFromUp" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="eight-section-title appeight-headline pera-content text-left">
-                                        <span class="eg-title-tag"><i class="square-shape"><i></i><i></i>
-                                                <i></i><i></i></i>
-                                        </span>
-                                        <h2>How to buy Rags Coin in
-                                            <span>PancakeSwap</span>
-                                        </h2>
-                                    </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <h3>Rags</h3>
+                        <h2>Rags will avail with Coinpayments shortly</h2>
+                    </div>
+                    <p>Rags partnership coinpayments allows merchants across the world on several top ecommerce
+                        platforms the ability to accept Rags coin as payment if they choose to integrate!.</p>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="content">
+                        <h2 class="title-xlarge mb-30 wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">white
+                            Paper</h2>
+
+                        <p class="mb-30 wow bounceInUp" data-wow-duration="2s" data-wow-delay="2s">
+                            Rags Partnered with corporates in future to allow merchants to pay rags across the world on
+                            several platforms like hotels, Edu tech and Ecommerce platforms and release open API
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <div class="chart-img">
+                        <img src="assets/img/doc.svg" style="width: 72%;" alt="chart_image_not_found">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="donation" class="about-section sec-ptb-100 clearfix">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <h3>Rags</h3>
+                        <h2>Charity Donations</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <div class="chart-img">
+                        <img src="assets/img/donate.svg" style="width: 72%;" alt="chart_image_not_found">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="content">
+                        <h2 class="title-xlarge mb-30 wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">
+                            Donation</h2>
+
+                        <p class="mb-30  wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">
+                            Rags charity helps the Techie to understand more Hybrid Intelligence on crypto
+                        </p>
+                        <div class="text-left">
+                            <a href="#!" class="custom-btn waves-effect" tabindex="-1">
+                                Coming Soon ...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chart-section" class="chart-section clearfix">
+        <div class="jarallax" style="background-image: url(assets/images/chart-sec-bg.jpg)">
+            <div class="overlay-black sec-ptb-100">
+                <div class="container">
+
+                    <div class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <h3 class="clr-white">Rags</h3>
+                        <h2 class="clr-white">Roadmap</h2>
+                    </div>
+
+                    <!-- Tab -->
+                    <div class="tab-teaser">
+                        <div class="tab-menu">
+                            <ul>
+                                <li><a href="#" class="active" data-rel="tab-1">Phase 1</a></li>
+                                <li><a href="#" data-rel="tab-2" class="">Phase 2</a></li>
+                                <li><a href="#" data-rel="tab-3" class="">Phase 3</a></li>
+                                <li><a href="#" data-rel="tab-4" class="">Phase 4</a></li>
+                                <li><a href="#" data-rel="tab-5" class="">Phase 5</a></li>
+                                <li><a href="#" data-rel="tab-6" class="">Phase 6</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-main-box">
+                            <div class="tab-box" id="tab-1" style="display:block;">
+                                <h2 class="text-white">Phase 1</h2>
+                                <div class="list-area mb-30">
+                                    <ul>
+                                        <li class="clr-black">
+                                            <i class="clr-green ion-checkmark-circled"></i>
+                                            Marketing push to spread awareness
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-green ion-checkmark-circled"></i>
+                                            Website launch
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-green ion-checkmark-circled"></i>
+                                            Meme development
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-green ion-checkmark-circled"></i>
+                                            100 Rags Holders in ICO
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            5000 telegram members
+                                        </li>
+                                    </ul>
                                 </div>
 
                             </div>
-                        </div>
-                        <!-- /title -->
-                        <div class="ei-faq-queans wow fadeFromUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="accordion" id="accordionExample">
-                                <div class="ei-faq faq_bg">
-                                    <div class="ei-faq-header" id="headingOne">
-                                        <button class="" data-toggle="collapse" data-target="#collapseOne"
-                                            aria-controls="collapseOne">
-                                            Create a MetaMask Wallet
-                                        </button>
-                                    </div>
-                                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
-                                        <div class="ei-faq-body">
+                            <div class="tab-box" id="tab-2">
+                                <h2 class="text-white">Phase 2</h2>
+                                <div class="list-area mb-30">
+                                    <ul>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Influencer marketing push
 
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Listing on coin gecko
+
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Listing on coin market cap
+
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            25,000 telegram members
+
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            25,000 holders
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Third party audit
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Voluntary donation for community + charity partnership
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-box" id="tab-3">
+                                <h2 class="text-white">Phase 3</h2>
+                                <div class="list-area mb-30">
+                                    <ul>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            100,000 holders
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            100,000 telegram members
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Large influencer marketing push
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            More memes from community
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Rags release the utility for hotels
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tab-box" id="tab-4">
+                                <h2 class="text-white">Phase 4</h2>
+                                <div class="list-area mb-30">
+                                    <ul>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            150,000 holders
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            increase marketing
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Rags Swap
+
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Add way more memes
+
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Website Redesign
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Rags Paw (Paw wallet growth tracker )
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tab-box" id="tab-5">
+                                <h2 class="text-white">Phase 5</h2>
+                                <div class="list-area mb-30">
+                                    <ul>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Release the hybrid intelligence tool for social strategies companies
+                                        </li>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Implement Rags Edutech platform
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tab-box" id="tab-6">
+                                <h2 class="text-white">Phase 6</h2>
+                                <div class="list-area mb-30">
+                                    <ul>
+                                        <li class="clr-black">
+                                            <i class="clr-yellow ion-checkmark-circled"></i>
+                                            Donate to the startup Tech companies and tie up with the big corporate
+                                            companies with 100 billion community with world
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="criptocurrency-price-section" class="criptocurrency-price-section sec-ptb-100 bg-offwhite clearfix">
+        <div class="container">
+
+            <div class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <h3>Rags</h3>
+                <h2>How to buy Rags Coin in PancakeSwap</h2>
+            </div>
+
+
+            <div class="card-body">
+                <div class="flex flex-column mb-5 mt-4 faq-section">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="heading-1">
+                                        <h5 class="mb-0">
+                                            <a role="button" data-toggle="collapse" href="#collapse-1"
+                                                aria-expanded="true" aria-controls="collapse-1">
+                                                Create a MetaMask Wallet
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="collapse-1" class="collapse show" data-parent="#accordion"
+                                        aria-labelledby="heading-1">
+                                        <div class="card-body">
                                             $RAGS token is available on the Binance Smart Chain (BSC). MetaMask is the
                                             market leader in BSC (Binance Smart Chain) wallets. On Google Chrome, visit
                                             metamask.io to download the extension and set up a wallet.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ei-faq">
-                                    <div class="ei-faq-header" id="headingtwo">
-                                        <button class="collapsed" data-toggle="collapse" data-target="#collapsetwo"
-                                            aria-controls="collapsetwo">
-                                            Add Binance Smart Chain (BSC) to your MetaMask
-                                        </button>
+                                <div class="card">
+                                    <div class="card-header" id="heading-2">
+                                        <h5 class="mb-0">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2"
+                                                aria-expanded="false" aria-controls="collapse-2">
+                                                Add Binance Smart Chain (BSC) to your MetaMask
+                                            </a>
+                                        </h5>
                                     </div>
-                                    <div id="collapsetwo" class="collapse" data-parent="#accordionExample">
-                                        <div class="ei-faq-body">
+                                    <div id="collapse-2" class="collapse" data-parent="#accordion"
+                                        aria-labelledby="heading-2">
+                                        <div class="card-body">
                                             Before you can use MetaMask with Binance Smart Chain (BSC), you must add the
                                             network to your MetaMask plugin. We recommend you follow the simple
                                             instructions here, at Binance Academy to accomplish this.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ei-faq">
-                                    <div class="ei-faq-header" id="headingthree">
-                                        <button class="collapsed" data-toggle="collapse" data-target="#collapsethree"
-                                            aria-controls="collapsethree">
-                                            Transfer $BNB from Binance to MetaMask
-                                        </button>
+
+                                <div class="card">
+                                    <div class="card-header" id="heading-3">
+                                        <h5 class="mb-0">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3"
+                                                aria-expanded="false" aria-controls="collapse-3">
+                                                Transfer $BNB from Binance to MetaMask
+                                            </a>
+                                        </h5>
                                     </div>
-                                    <div id="collapsethree" class="collapse" data-parent="#accordionExample">
-                                        <div class="ei-faq-body">
+                                    <div id="collapse-3" class="collapse" data-parent="#accordion"
+                                        aria-labelledby="heading-3">
+                                        <div class="card-body">
                                             We suggest transferring $BNB from your Binance account to MetaMask. This
                                             third party tutorial explains how to transfer your $BNB to MetaMask.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ei-faq">
-                                    <div class="ei-faq-header" id="headingfour">
-                                        <button class="collapsed" data-toggle="collapse" data-target="#collapsefour"
-                                            aria-controls="collapsefour">
-                                            Almost finished! Visit PancakeSwap
-                                        </button>
+
+                                <div class="card">
+                                    <div class="card-header" id="heading-4">
+                                        <h5 class="mb-0">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4"
+                                                aria-expanded="false" aria-controls="collapse-4">
+                                                Almost finished! Visit PancakeSwap
+
+                                            </a>
+                                        </h5>
                                     </div>
-                                    <div id="collapsefour" class="collapse" data-parent="#accordionExample">
-                                        <div class="ei-faq-body">
+                                    <div id="collapse-4" class="collapse" data-parent="#accordion"
+                                        aria-labelledby="heading-4">
+                                        <div class="card-body">
                                             You can currently buy $RAGS on PancakeSwap.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ei-faq">
-                                    <div class="ei-faq-header" id="headingfive">
-                                        <button class="collapsed" data-toggle="collapse" data-target="#collapsefive"
-                                            aria-controls="collapsefive">
-                                            Swap $BNB for RAGS
-                                        </button>
+
+                                <div class="card">
+                                    <div class="card-header" id="heading-5">
+                                        <h5 class="mb-0">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5"
+                                                aria-expanded="false" aria-controls="collapse-5">
+                                                Swap $BNB for RAGS
+
+                                            </a>
+                                        </h5>
                                     </div>
-                                    <div id="collapsefive" class="collapse" data-parent="#accordionExample">
-                                        <div class="ei-faq-body">
+                                    <div id="collapse-5" class="collapse" data-parent="#accordion"
+                                        aria-labelledby="heading-5">
+                                        <div class="card-body">
                                             Enter the amount of $BNB you would like to swap for $RAGS. Click Connect
                                             Wallet then Swap. If you receive an error message, click the settings icon
                                             on the exchange page and increase the "Slippage tolerance" to a higher
@@ -888,153 +946,240 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="newsletter-section" class="newsletter-section clearfix">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="newsletter-contant">
+                        <h2 class="title-xlarge mb-15 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                            Subscribe to our Newsletter</h2>
+                        <p class="clr-white">
+                            Copyright © 2021 Rags. All Rights Reserved - Privacy Policy - Terms & Conditions Rags is not
+                            an investment and created as a meme parody like Rags. Rags makes no promises and is not
+                            responsible for any losses or errors use at your own risk. Rags is not affiliated with
+                            RagsCoin.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="newsletter-form">
+                        <!-- <form action="#"> 
+                            <div class="input-item">
+                                <input type="email" placeholder="Your Email">
+                                <button type="button">submit</button>
+                            </div>
+                        </form> -->
+                        <div class="footer-section mt-3">
+                            <div class="social-list">
+                                <ul>
+                                    <li class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0s">
+                                        <a target="_blank" href="https://www.facebook.com/ragsico/"
+                                            class="fab fa-facebook">
+                                        </a>
+                                    </li>
+                                    <li class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0s">
+                                        <a target="_blank" href="https://www.instagram.com/ragscoin/"
+                                            class="fab fa-instagram">
+                                        </a>
+                                    </li>
+                                    <li class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
+                                        <a target="_blank" href="https://t.me/ragscoin" class="fab fa-telegram">
+                                        </a>
+                                    </li>
+
+                                    <li class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
+                                        <a target="_blank" href="https://twitter.com/Ragscoin" class="fab fa-twitter">
+                                        </a>
+                                    </li>
+                                    <li class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">
+                                        <a target="_blank" href="https://discord.com/channels/ragscoin"
+                                            class="fab fa-discord">
+                                        </a>
+                                    </li>
+                                    <li class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">
+                                        <a target="_blank" href="https://www.reddit.com/user/ragscoin"
+                                            class="fab fa-reddit">
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <span class="ei-faq-shape fq-shape-style1" data-parallax='{"x" : 50}'><img
-                src="assets/img/app-landing/shape/fq-shape1.png" alt=""></span>
-        <span class="ei-faq-shape fq-shape-style2"><img src="assets/img/app-landing/shape/fq-shape2.png" alt=""></span>
-        <span class="ei-faq-shape fq-shape-style3"><img src="assets/img/app-landing/shape/fq-shape3.png" alt=""></span>
-        <span class="ei-faq-shape fq-shape-style4" data-parallax='{"y" : 60}'><img
-                src="assets/img/app-landing/shape/fq-shape4.png" alt=""></span>
-        <span class="ei-faq-shape fq-shape-style5"><img src="assets/img/app-landing/shape/fq-shape5.png" alt=""></span>
-        <span class="ei-faq-shape fq-shape-style6"><img src="assets/img/app-landing/shape/fq-shape6.png" alt=""></span>
-        <span class="ei-faq-shape fq-shape-style8"><img src="assets/img/app-landing/shape/fq-shape8.png" alt=""></span>
-        <span class="ei-faq-shape fq-shape-style7"><img src="assets/img/app-landing/shape/fq-shape7.png" alt=""><img
-                src="assets/img/app-landing/shape/fq-shape7.png" alt="">
-            <img src="assets/img/app-landing/shape/fq-shape7.png" alt=""></span>
     </section>
-    <!-- End of Faq section
-        ============================================= -->
 
+    <footer id="footer-section" class="footer-section bg-black clearfix">
 
-    <section id="ei-newslatter" class="ei-newslatter-section position-relative">
-        <div class="ei-newslatter-box position-relative">
+        <div class="footer-bottom clearfix">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="ei-newslatter-contnet appeight-headline pera-content">
-                            <h3>Subscribe to our <span>newsletter!</span></h3>
-                            <div class="ei-newslatter-form position-relative row col-12">
-                                <div class="col-sm-12 col-md-6">
-                                    <ul class="social-icon-list-bottom mt-3 mb-3">
-                                        <li>
-                                            <a target="_blank" href="https://www.facebook.com/ragsico/"
-                                                class="fab fa-facebook">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="https://www.instagram.com/ragscoin/"
-                                                class="fab fa-instagram">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="https://t.me/ragscoin" class="fab fa-telegram">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="https://twitter.com/Ragscoin"
-                                                class="fab fa-twitter">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="https://discord.com/channels/ragscoin"
-                                                class="fab fa-discord">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="https://www.reddit.com/user/ragscoin"
-                                                class="fab fa-reddit">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-12 col-md-6">
-                                    <form action="#">
-                                        <input class="email" name="email" type="email"
-                                            placeholder="Enter your email address">
-                                        <div class="nws-button position-absolute text-capitalize">
-                                            <button class="hover-btn" type="submit" value="Submit"> Subscribe
-                                                Now</button>
-                                        </div>
-                                    </form>
-                                </div>
-
-                            </div>
-                            <div class="row col-12">
-                                <p class="text-white">Copyright © 2021 Rags. All Rights Reserved - Privacy Policy -
-                                    Terms & Conditions Rags
-                                    is not an investment and created as a meme parody like Rags. Rags makes no promises
-                                    and is not responsible for any losses or errors use at your own risk. Rags is not
-                                    affiliated with RagsCoin.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p class="copyright text-center">
+                    © All Right Reserved. Designed by <a href="#" target="_blank" class="clr-yellow"><u class="
+                            wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">RAGS</u></a>
+                </p>
             </div>
         </div>
-    </section>
 
-
-
-
-    <!-- Start of Footer  section
-        ============================================= -->
-    <section id="ei-footer" class="ei-footer-section position-relative">
-
-        <div class="ei-footer-copyright">
-            <div class="container">
-                <div class="ei-footer-copyright-content">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="ei-copyright-text">
-                                <p>© 2021 <a href="#">RAGS</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ei-footer-shape1 position-absolute" data-parallax='{"x" : 60}'><img
-                src="assets/img/app-landing/shape/fo-shape1.png" alt=""></div>
-        <div class="ei-footer-shape2 position-absolute" data-parallax='{"y" : 60}'><img
-                src="assets/img/app-landing/shape/fo-shape2.png" alt=""></div>
-        <div class="ei-footer-shape3 position-absolute"><img src="assets/img/app-landing/shape/eimap.png" alt=""></div>
-    </section>
-    <!-- End of Footer  section
-        ============================================= -->
-
-    <!-- JS library -->
-    <script src="assets/js/jquery.js"></script>
+    </footer>
+    
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/mdb.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script src="assets/js/amcharts.js"></script>
+    <script src="assets/js/serial.js"></script>
+    <script src="assets/js/export.min.js"></script>
+    <script src="assets/js/light.js"></script>
+
+    <script src="assets/js/gmap3.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyC61_QVqt9LAhwFdlQmsNwi5aUJy9B2SyA"></script>
+
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/pagenav.js"></script>
-    <script src="assets/js/odometer.js"></script>
-    <script src="assets/js/bxslider.js"></script>
-    <script src="assets/js/jquery.barfiller.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jarallax.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/typer-new.js"></script>
-    <script src="assets/js/script.js"></script>
+
+    <!-- <script src="assets/js/countdown.js"></script> -->
+    <script src="assets/js/alt-menu.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        $('.nav-pills li a').click(function (e) {
-            console.log("triggered");
-            e.preventDefault(); //prevent the link from being followed
-            $('.nav-pills li').removeClass('active');
-            $(this).parent().addClass('active');
+        new WOW().init();
+
+        $('.tab-menu li a').on('click', function () {
+            var target = $(this).attr('data-rel');
+            $('.tab-menu li a').removeClass('active');
+            $(this).addClass('active');
+            $("#" + target).fadeIn('slow').siblings(".tab-box").hide();
+            return false;
         });
+    </script>
+
+    <script>
+
+        // Cache selectors
+        var lastId,
+            topMenu = $("#top-menu"),
+            topMenuHeight = topMenu.outerHeight() + 15,
+            // All list items
+            menuItems = topMenu.find("a"),
+            // Anchors corresponding to menu items
+            scrollItems = menuItems.map(function () {
+                var item = $($(this).attr("href"));
+                if (item.length) { return item; }
+            });
+
+        // Bind click handler to menu items
+        // so we can get a fancy scroll animation
+        menuItems.click(function (e) {
+            var href = $(this).attr("href"),
+                offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
+            $('html, body').stop().animate({
+                scrollTop: offsetTop
+            }, 300);
+            e.preventDefault();
+        });
+
+        // Bind to scroll
+        $(window).scroll(function () {
+            // Get container scroll position
+            var fromTop = $(this).scrollTop() + topMenuHeight;
+
+            // Get id of current scroll item
+            var cur = scrollItems.map(function () {
+                if ($(this).offset().top < fromTop)
+                    return this;
+            });
+            // Get the id of the current element
+            cur = cur[cur.length - 1];
+            var id = cur && cur.length ? cur[0].id : "";
+
+            if (lastId !== id) {
+                lastId = id;
+                // Set/remove active class
+                menuItems
+                    .parent().removeClass("active")
+                    .end().filter("[href='#" + id + "']").parent().addClass("active");
+            }
+        });
+
+
+        $(function () {
+            // Get clickable link
+            $("mainmenu ul li a").click(function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+
+                    // Store link's hash value into variable
+                    const hash = this.hash;
+                    // console.log(hash)
+
+                    // Animate html & body to the hash value position
+                    $("html, body").animate(
+                        {
+                            scrollTop: $(hash).offset().top // - 100 if you wish
+                        },
+                        800
+                    );
+                }
+            });
+        });
+
+    </script>
+    <script>
+        function copyTextfun() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+            alert("Smart address copied")
+        }
+
+        // const response = await fetch('');
+        // const myJson = await response.json(); //extract JSON from the http response
+        // console.log("fffffff", myJson)
+        // do something with myJson
+
+
+        $.ajax
+            ({
+                type: "GET",
+                url: "https://api.pancakeswap.info/api/v2/tokens/0xa923180ef71e81f21b36941fb62d954af21c60a3",
+                success: function (res) {
+                    console.log("............")
+                    console.log(res);
+                    document.getElementById("price").innerHTML = res.data.price;
+                    document.getElementById("bnbprice").innerHTML = res.data.price_BNB;
+                }
+            });
     </script>
 </body>
 
-<!-- Mirrored from html.themexriver.com/Saasio/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Aug 2021 03:02:19 GMT -->
+<!-- Mirrored from demo.xstheme.com/html-preview/criptofy/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Aug 2021 08:18:07 GMT -->
 
 </html>
