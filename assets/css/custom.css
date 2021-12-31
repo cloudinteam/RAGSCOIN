@@ -1,9 +1,11 @@
-.serviceBoxAlign{
+.serviceBoxAlign {
     height: 415px;
 }
-.serviceBoxAlign2{
+
+.serviceBoxAlign2 {
     height: 215px;
 }
+
 #join_the_club .service {
     padding: 40px 30px;
     background-color: #fff;
@@ -14,6 +16,24 @@
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-.tab-main-box{
-    height:350px;
+
+.tab-main-box {
+    height: 350px;
+}
+
+ul.logos {
+    margin: 50px 0 0 0;
+    padding: 0 0 0 0;
+    list-style: none;
+}
+
+ul.logos li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style: none;
+    display: inline-block;     
+}
+
+ul.logos li img {
+    width: 80%!important;
 }
